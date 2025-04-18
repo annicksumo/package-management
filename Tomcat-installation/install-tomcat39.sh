@@ -9,7 +9,8 @@ sudo hostnamectl set-hostname tomcat
 cd /opt 
 # install Java JDK 1.8+ as a pre-requisit for tomcat to run.
 sudo yum install git wget -y
-sudo yum install java-1.8.0-openjdk-devel -y
+#sudo yum install java-1.8.0-openjdk-devel -y
+sudo yum install java-17-openjdk-devel java-1.8.0-openjdk-devel -y
 # install wget unzip packages.
 sudo yum install wget unzip -y
 
